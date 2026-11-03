@@ -29,8 +29,8 @@ const Feedbacks = () => {
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}
         >
-          <p className={`${styles.sectionSubText}`}>What others say</p>
-          <h2 className={`${styles.sectionHeadText}`}>Testimonials.</h2>
+          <h2 className={`${styles.sectionHeadText}`}>EDUCATION.</h2>
+          <p className={`${styles.sectionSubText}`}>Education is not the learning of facts, but the training of the mind to think.</p>
 </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>

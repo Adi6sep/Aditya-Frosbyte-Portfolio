@@ -12,18 +12,24 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    springboot,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    Coursera,
+    CADD,
+    Codsoft,
+    Letsgrowmore,
     carrent,
     jobit,
+    doctorai,
+    CivicForum,
     tripguide,
+    RunwayOS,
     threejs,
   } from "../assets";
+  
+
   
   export const navLinks = [
     {
@@ -33,6 +39,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "education",
+      title: "Education",
     },
     {
       id: "contact",
@@ -96,10 +106,11 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
+       {
+      name: "spring boot",
+      icon: springboot,
     },
+
     {
       name: "git",
       icon: git,
@@ -116,50 +127,50 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Advanced Java",
+      company_name: "COURSERA",
+      icon: Coursera,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Nov 2024 - Dec 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Connected backend applications to databases using JDBC for real-time data access..",
+        "Built dynamic web applications using Servlets and JSP for real-time user interaction.",
+        "Developed MVC-based Java applications with proper separation of concerns.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Database Handeling",
+      company_name: "CADD",
+      icon: CADD,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2025 - Feb 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Designed and managed relational databases using MySQL for structured data storage.",
+        "Performed CRUD operations (Create, Read, Update, Delete) efficiently using SQL queries.",
+        "Implemented foreign key constraints to maintain referential integrity between tables.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "App Development",
+      company_name: "TECHNO JAM",
+      icon: Letsgrowmore,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2025 - April 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining App applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Web Development",
+      company_name: "CODSOFT",
+      icon: Codsoft,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2025 - July 2025",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,27 +183,19 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Bachelor of Technology in Computer Technology",
+      name: "MIT ADT University",
+      designation: "2023-2027",
+      company: "Pursuing",
+      image: "https://theknowledgereview.com/wp-content/uploads/2022/07/School-of-Engineering-Building.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Higher Secondary Education - HSC Board",
+      name: "Arham College",
+      designation: "2020-2022",
+      company: "Completed",
+      image: "https://www.kidwise.in/wp-content/uploads/2021/01/download-17.jpg",
     },
   ];
   
@@ -203,20 +206,20 @@ import {
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Mysql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Adi6sep/roadking-rentals",
     },
     {
       name: "Job IT",
@@ -240,9 +243,51 @@ import {
       source_code_link: "https://github.com/",
     },
     {
+      name: "Doctor AI",
+      description:
+        "An AI-powered healthcare platform that provides diagnostic assistance and medical information to users.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: doctorai,
+      source_code_link: "https://github.com/",
+    },
+        {
+      name: "Civic Forum",
+      description:
+        "An AI-powered platform for civic engagement and community discussion.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: CivicForum,
+      source_code_link: "https://github.com/",
+    },
+        {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An AI-powered travel planning platform that provides personalized recommendations and booking services for users.",
       tags: [
         {
           name: "nextjs",
@@ -258,6 +303,27 @@ import {
         },
       ],
       image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+  {
+      name: "Runway OS",
+      description:
+        "An AI-powered travel planning platform that provides personalized recommendations and booking services for users.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RunwayOS,
       source_code_link: "https://github.com/",
     },
   ];

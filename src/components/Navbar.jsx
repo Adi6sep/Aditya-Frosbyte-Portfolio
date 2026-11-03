@@ -18,7 +18,7 @@ const Navbar = () => {
            }
           }>
             <img src={logo} alt="logo" className='w-18 h-16 object-contain' />
-            <p className='text-white text-[18px] font-bold cursor-pointer flex'>Samy &nbsp;
+            <p className='text-white text-[18px] font-bold cursor-pointer flex'>Aditya &nbsp;
               <span className='sm:block hidden'>| FrostByte</span>
               </p>
             </Link>
